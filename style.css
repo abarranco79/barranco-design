@@ -1,5 +1,32 @@
+@font-face {
+    font-family: 'Comfortaa-light';
+    src: url(fonts/Comfortaa-Light.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comfortaa-light';
+}
+
+.encabezado{
+   width: 95%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 3fr repeat(4, 1fr); 
+   align-items: center;
+}
+
+.item-menu{
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.logotipo{
+    width: 320px;
+}
+
+.logotipo img{
+    width: 100%;
 }
