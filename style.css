@@ -14,7 +14,7 @@
    width: 95%;
    margin: 0 auto;
    display: grid;
-   grid-template-columns: 3fr repeat(4, 1fr); 
+   grid-template-columns: 5fr repeat(4, 1fr); 
    align-items: center;
 }
 
