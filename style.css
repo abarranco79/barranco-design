@@ -9,6 +9,13 @@
     box-sizing: border-box;
     font-family: 'Comfortaa-light';
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #008C8C;
+}
 
 .encabezado{
    width: 95%;
